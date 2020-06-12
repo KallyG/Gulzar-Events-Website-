@@ -1,0 +1,294 @@
+@font-face {
+	font-family: 'Acid-Medium-Italic_oneregular';
+	src: url('../fonts/Acid-Medium-Italice/Acid-Medium-Italic-regular-webfont.eot');
+	src: url('../fonts/Acid-Medium-Italic/Acid-Medium-Italic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/Acid-Medium-Italic/Acid-Medium-Italic-regular-webfont.woff') format('woff'),
+		 url('../fonts/Acid-Medium-Italic/Acid-Medium-Italic-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/Acid-Medium-Italic/Acid-Medium-Italic-regular-webfont.svg#Acid-Medium-Italic_oneregular') format('svg');
+}
+
+body {
+	background-color: #000000	
+}
+p {
+	color: #ab11b1;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	margin: 0 auto;
+	padding: 44px 0 50px;
+	text-align: center;
+	width: 960px;
+	font-size: 25px
+}
+#header a.logo {
+	display: block;
+	margin: 0 auto;
+	width: 340px;
+	font-size: 25px
+}
+
+#header ul {
+	margin: 0;
+	padding: 56px 0 0;
+	font-size: 25px
+}
+#header ul li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0 19px;
+	font-size: 25px
+}
+#header ul li a {
+	color:#ffffff; 
+	display: inline-block;
+	font-family: Courier, monospace;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0 0 3px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 25px
+}
+#header ul li a:hover, #header ul li.selected a {
+	color: #9012bd;
+	font-size: 25px
+}
+
+
+#Title
+{
+	color: #ffffff	
+}
+
+#body 
+{
+	text-align: center;
+}
+
+#body > div {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+}
+#body > div img {
+	border: 2px solid #292929;
+	margin: 24px 0 0;
+	padding: 0;
+}
+#body > div .article {
+	margin: 0 auto;
+	padding: 30px 30px 0;
+	width: 560px;
+}
+
+#body > div .article h3 {
+	color: #ffffff;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+#body > div .article h4 {
+	background: #1166a2;
+	color: #fff;
+	display: inline-block;
+	font-family: Courier, monospace;
+	font-size: 25px;
+	font-weight: normal;
+	margin: 0 0 30px;
+	padding: 8px 27px 10px;
+}
+#body > div .article p {
+	margin: 0 0 30px;
+}
+#body div ul {
+	margin: 0;
+	padding: 24px 10px 0;
+	width: 940px;
+}
+#body div ul li {
+	border: 2px solid #1a1a1a;
+	display: block;
+	list-style: none;
+	margin: 0 0 13px;
+	overflow: hidden;
+	padding: 0;
+}
+#body div ul li .figure {
+	border-right: 2px solid #1a1a1a;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 376px;
+}
+
+#body div ul li div {
+	float: left;
+	margin: 0;
+	padding: 63px 0 20px;
+	width: 558px;
+}
+#body div ul li div h3 {
+	color: #ffffff;
+	font-family: Courier, monospace;
+	font-size: 25px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+#body #featured {
+	margin: 0 0 13px;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+#body #featured img {
+	border: 0;
+	display: normal;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#body #featured div {
+	left: 50%;
+	margin-left: -480px;
+	margin-top: -171px;
+	padding: 0 0 0 470px;
+	position: absolute;
+	top: 50%;
+	text-align: left;
+	width: 490px;
+}
+
+#body > ul {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 24px 0 0;
+	width: 960px;
+}
+#body > ul li {
+	display: block;
+	float: left;
+	margin: 0 10px 20px;
+	padding: 0;
+	width: 300px;
+}
+#body > ul li a {
+	color: #000;
+	display: block;
+	font-family: Courier, monospace;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#body form {
+	margin: 0 auto;
+	padding: 24px 0 0;
+	width: 620px;
+}
+#body form input, #body form textarea {
+	border: 2px solid ##9012bd;
+	color: ##9012bd;
+	font-family: Courier, monospace;
+	font-size: 15px;
+	font-weight: normal;
+	margin: 0 0 37px;
+	padding: 20px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 596px;
+}
+#body form textarea {
+	height: 175px;
+	overflow: auto;
+	resize: none;
+}
+#body form #send {
+	background: #9012bd;
+	color: #fff;
+	font-family: Courier, monospace;
+	font-size: 15px;
+	font-weight: normal;
+	display: inline-block;
+	padding: 20px 28px;
+	width: auto;
+}
+#body form #send:hover {
+	background: #fff;
+	color: #9012bd;
+	cursor: pointer;
+}
+#footer {
+	background: #000000;
+	margin: 0;
+	padding: 36px 0 42px;
+}
+#footer div {
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	width: 960px;
+}
+#footer div p {
+	color: #fff;
+	float: left;
+	line-height: 44px;
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+#footer div ul {
+	display: block;
+	float: right;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 256px;
+}
+#footer div ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	width: 44px;
+}
+#footer div ul li a {
+	background: url(../images/icons.jpg) no-repeat 0 0;
+	display: block;
+	height: 44px;
+	margin: 0;
+	padding: 0;
+	text-indent: -99999px;
+	width: 44px;
+}
+#footer div ul li #twitter {
+	background-position: 0 0;
+}
+#footer div ul li #twitter:hover {
+	background-position: -44px 0;
+}
+#footer div ul li #facebook {
+	background-position: 0 -44px;
+}
+#footer div ul li #facebook:hover {
+	background-position: -44px -44px;
+}
+#footer div ul li #pinterest {
+	background-position: 0 -132px;
+}
+#footer div ul li #pinterest:hover {
+	background-position: -44px -132px;
+}
